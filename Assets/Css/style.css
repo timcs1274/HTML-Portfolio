@@ -1,6 +1,13 @@
 * { font-family: Helvetica, sans-serif;
 }
 
+:root {
+    --mainpurple:#8A307F;
+    --darkerpurple:#5a0e51;
+    --darkerblue: #6883BC;
+    --lighterblue: #79A7D3;
+}
+
 body{
     margin: 0px;
 }
@@ -12,22 +19,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 10%;
-    padding-top: 8px;
-    padding-bottom: 8px;
     width: 100%;
     height: 20%;
-    background-color: #5a0e51;
+    background-color: var(--darkerpurple);
 }
 
-h1 {
+header h1 {
     color: whitesmoke;
     font-family:fantasy;
-    font-size: 35px;
+    font-size: 55px;
     font-weight: 200;
     justify-content: right;
 }
 
-li, a {
+li a {
     font-weight: 500;
     font-size: 20px;
     color: whitesmoke;
@@ -36,8 +41,9 @@ li, a {
     padding-left: 20px;
     text-decoration: underline;
     text-decoration-style: double;
-    text-decoration-color: black;
+    text-decoration-color: var(--darkerpurple);
 }
+
 
 .navlinks {
     list-style: none;
@@ -47,17 +53,14 @@ li, a {
     display: inline-block;
 }
 .navlinks li :hover{
-    color: #8A307F;
-}
-
-section p{
-    margin: 0px;
+    color: var(--mainpurple);
+    text-decoration-color: whitesmoke;
 }
 
 .slideblue1 {
     box-sizing: border-box;
-    height: 75vh;
-    background-color:#79A7D3;
+    height: 70vh;
+    background-color:var(--lighterblue);
     color: blanchedalmond;
 }
 
@@ -70,11 +73,50 @@ section p{
 
 .slideblue2 {
     box-sizing: border-box;
-    height: 75vh;
-    background-color: #6883BC;
+    height: 25vh;
+    background-color: var(--darkerblue);
     color: blanchedalmond;
 }
 
-footer{
+#aboutme h1{
+    margin: 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+
+.slideblue1 li{
+    list-style: none;
+    display: block;
+    margin-right: 0px;
+    
+    
+}
+
+#picofmecloser {
+    position: absolute;
+    height: 300px;
+    width: 285px;
+    margin: 6% 0% 5% 5%;
+    border-radius: 50%;
+}
+
+#mywork h1{
+    margin: 0px;
+    font-size: 40px;
+    
+}
+
+#contactme h1{
+    margin: 0px;
+    font-size: 40px;
 
 }
+
+.linkedinlogo{
+    height: 200px;
+    width: 200px;
+}
+    
