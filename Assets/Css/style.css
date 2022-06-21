@@ -2,16 +2,15 @@
 }
 
 :root {
-    --mainpurple:#8A307F;
-    --darkerpurple:#5a0e51;
-    --darkerblue: #6883BC;
-    --lighterblue: #79A7D3;
+    --lightpurple:#b7b1d2;
+    --darkpurple:#4b3d8f;
+    --aqua: #37a987;
 }
 
 body{
     margin: 0px;
 }
-
+/*All header elements*/
 header {
     position: sticky;
     box-sizing: border-box;
@@ -21,7 +20,7 @@ header {
     padding: 0px 10%;
     width: 100%;
     height: 20%;
-    background-color: var(--darkerpurple);
+    background-color: var(--darkpurple);
 }
 
 header h1 {
@@ -41,10 +40,9 @@ li a {
     padding-left: 20px;
     text-decoration: underline;
     text-decoration-style: double;
-    text-decoration-color: var(--darkerpurple);
+    text-decoration-color: var(--darkpurple);
 }
-
-
+/*Nav links (within the header)*/
 .navlinks {
     list-style: none;
 }
@@ -53,70 +51,90 @@ li a {
     display: inline-block;
 }
 .navlinks li :hover{
-    color: var(--mainpurple);
+    color: var(--lightpurple);
     text-decoration-color: whitesmoke;
 }
 
+/*first section*/
 .slideblue1 {
-    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
     height: 70vh;
-    background-color:var(--lighterblue);
-    color: blanchedalmond;
+    background-color:var(--aqua);
+    color: whitesmoke;
+    flex-shrink: 1;
+    gap: 9px; /*HEEEEEEEEEEEEEERRRRRRREEEEEEEEEEEE*/
 }
 
-.sliderasp{
-    box-sizing: border-box;
-    height: 125vh;
-    background-color: #8A307F;
-    color: blanchedalmond;
-}
-
-.slideblue2 {
-    box-sizing: border-box;
-    height: 25vh;
-    background-color: var(--darkerblue);
-    color: blanchedalmond;
-}
-
-#aboutme h1{
+.slideblue1 h1{
     margin: 0px;
     font-size: 40px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     padding-top: 1%;
+    width: 100%;
 }
-
+.container1{
+    width: 50%;
+}
 
 .slideblue1 li{
     list-style: none;
     display: block;
     margin-right: 0px;
-    
-    
 }
 
 #picofmecloser {
-    position: absolute;
+    position: static;
     height: 300px;
     width: 285px;
-    margin: 6% 0% 5% 5%;
+    margin: 6% 0% 5%;
     border-radius: 50%;
 }
 
+
+
+
+
+
+
+/*Second section*/
 #mywork h1{
-    margin: 0px;
-    font-size: 40px;
+    box-sizing: border-box;
+    height: 125vh;
+    background-color:var(--darkpurple);
+    color: whitesmoke;
     
 }
 
-#contactme h1{
+.sliderasp h1{
     margin: 0px;
-    font-size: 40px;
-
-}
-
-.linkedinlogo{
-    height: 200px;
-    width: 200px;
-}
+    font-size: 40px;  
     
+}
+
+
+
+
+
+
+/*Last Section (footer inside this section)*/
+#contactme{
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    background-color: var(--lightpurple);
+    color: whitesmoke;
+}
+
+.slideblue2 h1{
+    font-size: 40px;
+}
+
+
+.icons{
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+}
+
