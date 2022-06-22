@@ -63,7 +63,7 @@ li a {
     background-color:var(--aqua);
     color: whitesmoke;
     flex-shrink: 1;
-    gap: 9px; /*HEEEEEEEEEEEEEERRRRRRREEEEEEEEEEEE*/
+    gap: 0px 90px 90px 0px;
 }
 
 .slideaqua h1{
@@ -74,10 +74,12 @@ li a {
     padding-top: 1%;
     width: 100%;
 }
-.container1{
-    width: 50%;
+
+.paragraphcontainer{
+    width: 75%;
 }
 
+/*styling of the list*/
 .slideaqua li{
     list-style: none;
     display: block;
@@ -85,43 +87,44 @@ li a {
     font-size: 20px;
 }
 
+/*styling of picture*/
 #picofmecloser {
     position: static;
     height: 300px;
     width: 285px;
-    margin: 6% 0% 5%;
+    
     border-radius: 50%;
 }
 
 
 
-/*Cards*/
-.card-column {
+/*content of the links*/
+.body_links {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 1%;
   }
+
+/*styling for the links*/
   .card-body{
     border: 5px;
     border-style:groove;
     border-color: var(--lightpurple);
+    font-size: 30px;
+    background-color: #37a987;
   }
 
-  
-  
-
-
-/*Second section*/
 .slidedarkpurple{
     box-sizing: border-box;
     height: 75vh;
     background-color:var(--darkpurple);
     color: whitesmoke;
     margin: 0px;
-    
 }
 
+/*styling for title of page 2*/
 h1.slidetitle{
     display: flex;
     margin: 0px;
@@ -129,12 +132,7 @@ h1.slidetitle{
     justify-content: center;    
 }
 
-
-
-
-
-
-/*Last Section (footer inside this section)*/
+/*Last Section with links to external resources*/
 #contactme{
     display: flex;
     justify-content: center;
@@ -142,8 +140,6 @@ h1.slidetitle{
     background-color: var(--lightpurple);
     color: whitesmoke;
     width: 100%;
-    
-
 }
 
 .slidelightpurple h1{
@@ -160,4 +156,3 @@ h1.slidetitle{
     width: 30px;
     margin: 0px;
 }
-
