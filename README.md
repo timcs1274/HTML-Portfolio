@@ -6,11 +6,14 @@ Starting from scratch, Tim had to design every element of the webpage. As seen o
 
 This repository contains: [index.html](index.html), [style.css](style.css), [MIT License](license), and this [README.md](README.md) file.
 Here is a quick look at my Portfolio:
-![Portfolio gif](assets/images/Portfolio.gif)
+
+[Portfolio gif](assets/images/Portfolio.gif)
 
 ## Credits
 [meyerweb](http://meyerweb.com/eric/tools/css/reset/) is where I got the reset.css file.
+
 [w3schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) helped a ton with media queries and flex knowledge.
+
 [Tim Sasse](https://github.com/timcs1274) was the main contributor to this refactoring project. 
 
 ## License
