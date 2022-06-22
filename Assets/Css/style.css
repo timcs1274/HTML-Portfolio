@@ -156,3 +156,37 @@ h1.slidetitle{
     width: 30px;
     margin: 0px;
 }
+
+/*changes image + vh on 2nd page size on smaller screen*/
+@media screen and (max-width:768px){
+    #picofmecloser{
+        position: relative;
+        height: 150px;
+        width: 140px;
+    }
+    .card-body img{
+        height: 200px;
+        width: 400px;
+    }
+    .slidedarkpurple{
+        height: 50vh;
+    }
+
+}
+
+/*changes image +vh on 2ndpage size on even smaller screen*/
+@media screen and (max-width:480px){
+    #picofmecloser{
+        position: relative;
+        height: 60px;
+        width: 55px;
+    }
+    .card-body img{
+        height: 100px;
+        width: 200px;
+    }
+    .slidedarkpurple{
+        height: 30vh;
+    }
+
+}
