@@ -156,6 +156,10 @@ h1.slidetitle{
     width: 30px;
     margin: 0px;
 }
+#dnbimg{
+    height: 400px;
+    width: 800px;
+}
 
 /*changes image + vh on 2nd page size on smaller screen*/
 @media screen and (max-width:768px){
@@ -164,7 +168,8 @@ h1.slidetitle{
         height: 150px;
         width: 140px;
     }
-    .card-body img{
+
+    .card_body img{
         height: 200px;
         width: 400px;
     }
