@@ -5,6 +5,9 @@ This project serves as Tim's first functional portfolio. This project made use o
 Starting from scratch, Tim had to design every element of the webpage. As seen on the commit history for this repository, Tim has gone through many prototypes and finally stuck with this one. Thanks for stopping by!
 
 This repository contains: [index.html](index.html), [style.css](style.css), [MIT License](license), and this [README.md](README.md) file.
+
+Take a look at the [github pages link](https://timcs1274.github.io/TimSasse-Portfolio/)
+
 Here is a quick look at my Portfolio:
 
 ![Portfolio gif](/assets/images/Portfolio.gif)
